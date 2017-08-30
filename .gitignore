@@ -1,0 +1,25 @@
+# ignore macOS files
+*.DS_Store
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Icon
+Network Trash Folder
+Temporary Items
+
+# ignore testing files
+index.html
+
+# ignore design files
+design/
+*.sketch
