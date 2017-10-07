@@ -23,3 +23,7 @@ index.html
 # ignore design files
 design/
 *.sketch
+
+# ignore dropbox files
+.dropbox
+Icon?
