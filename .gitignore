@@ -20,8 +20,7 @@ Temporary Items
 # ignore testing files
 index.html
 
-# ignore design files
-design/
+# ignore design source files
 *.sketch
 
 # ignore dropbox files
