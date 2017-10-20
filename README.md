@@ -1,4 +1,4 @@
-![](https://lh3.googleusercontent.com/hlbezNXaODCZ_ClhI3fmxJVQ7aAJBrQyRX6iHTbq_h_rQ8j_nEE71DujcrTryW-OcoHfNs5wvg=w640-h400-e365)
+![](https://raw.githubusercontent.com/marginless/kommander/master/design/promotional-1400x560.png)
 
 ## What is it?
 
