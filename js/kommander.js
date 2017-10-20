@@ -66,8 +66,22 @@ function kommander_map(parent) {
 }
 
 function kommander_prompt_add(element) {
-	var prompt = $('<div id="kmd-extension" class="kmd-hidden"><div id="kmd-prompt"><form><div class="kmd-icon kmd-logo"></div><div id="kmd-search-container"><input type="text" id="kmd-search" autocomplete="off"></div><ol id="kmd-select"></ol></form></div></div>');
-	$(element ? element : document.body).prepend(prompt);
+	var prompt = '<div id="kmd-extension" class="kmd-hidden"><div id="kmd-prompt"><form><div class="kmd-icon kmd-logo"></div><div id="kmd-search-container"><input type="text" id="kmd-search" autocomplete="off"></div><ol id="kmd-select"></ol></form></div></div>';
+
+	if (element) {
+		$(element).prepend(prompt);
+	} else {
+		var shadow_host = document.createElement('span');
+		console.log('shadow_host', shadow_host);
+
+
+		shadow_host.style.setProperty('all', 'inherit', 'important');
+		shadow_host.attachShadow({ mode: 'open' });
+
+		document.body.prepend(shadow_host);
+	
+		shadow_host.innerHTML += prompt;
+	}
 }
 
 function kommander_prompt_show() {
