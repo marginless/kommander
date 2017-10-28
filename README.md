@@ -1,16 +1,19 @@
-![](https://raw.githubusercontent.com/marginless/kommander/master/design/promotional-1400x560.png)
+![](/design/promotional-1400x560.png)
 
-## What is it?
+### Note
+⚠️ This is a work in progress. *Use with care.*
 
-kommander is <kbd>⌘ K</kbd> for your browser.
+## What is this? 🤔
+Kommander is <kbd>⌘ K</kbd> for your browser.
 
-## Where do I get it?
-
+## Where do I get it? 💻
 ![](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)
 
-kommander is available in the [chrome web store](https://chrome.google.com/webstore/detail/kommander/lgehmhknkijkhhdlhdieghagaihfkimn?hl=en).
+Kommander is available in the [chrome web store](https://chrome.google.com/webstore/detail/kommander/lgehmhknkijkhhdlhdieghagaihfkimn?hl=en).
 
-## Misc.
+## Inspiration
+This plugin was inspired by Slack's <kbd>⌘ K</kbd> (or <kbd>⌘ T</kbd>), which allows you to switch between channels quickly.
 
-⚠️ This is work in progress. Use with care.
+---
 
+Made with love in Austria ⛰
